@@ -110,7 +110,20 @@ El administrador necesita una herramienta centralizada que permita a los cliente
 - Modo offline o sincronización diferida.
 
 ---
-## 7. Flujos principales
+## 7. Flujos Principales
+
+### Cliente
+1. Registro de usuario → inicio de sesión.  
+2. Registrar comida → calcular totales → guardar en base de datos → visualizar historial.  
+3. Registrar entrenamiento → añadir ejercicios → registrar sets (peso y repeticiones) → calcular volumen total.
+
+### Entrenador
+- Consultar clientes asignados → visualizar sus registros nutricionales y de entrenamiento → agregar observaciones.
+
+### Administrador
+- Crear, editar o eliminar usuarios → gestionar base de datos de alimentos y ejercicios.
+
+---
 
 ## 8. Requisitos no funcionales
 
