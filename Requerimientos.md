@@ -184,9 +184,54 @@ Desarrollo de una API con **MongoDB y Express** para gestionar usuarios, aliment
 ---
 
 ## 11. Propuesta formal y cronograma de trabajo
+*Para el gimnasio:*
+- Mayor fidelización de clientes.  
+- Apoyo profesional para los entrenadores.  
+- Valor agregado al servicio del gimnasio.  
+- Potencial de monetización futura (versión premium, reportes exportables, coaching nutricional digital).
+
+---
 
 ## 12. Criterios de aceptación
+| Semana | Actividades Principales |
+|--------|--------------------------|
+| *1* | Definición de requerimientos, diseño del modelo de datos y configuración del repositorio (Gitflow). |
+| *2* | Desarrollo de endpoints básicos de usuario y autenticación. |
+| *3* | Implementación de módulos de comidas y entrenamientos. |
+| *4* | Pruebas funcionales, documentación y preparación del MVP. |
+
+---
 
 ## 13. Soporte y mantenimiento
+- El sistema permite crear usuarios y diferenciarlos por rol.  
+- Los clientes pueden registrar comidas y entrenamientos.  
+- Los entrenadores visualizan los datos de sus clientes.  
+- Los cálculos de calorías y volumen son correctos.  
+- Los datos se almacenan correctamente en MongoDB.
 
-## 14. Próximos pasos
+---
+
+## 14. Soporte y Mantenimiento
+
+*Soporte Correctivo:*  
+Resolución de bugs, errores o incidentes de uso.  
+
+*Soporte Evolutivo:*  
+Pequeñas mejoras en la funcionalidad o interfaz sin modificar la estructura base.  
+
+*Soporte Preventivo:*  
+Mantenimiento técnico periódico: optimización de la base de datos, limpieza de datos obsoletos, respaldo (backup) y monitoreo.
+
+---
+
+## 15. Próximos Pasos
+
+1. *Validación del Documento:* Revisión y aprobación de requerimientos, plazos y presupuesto.  
+2. *Diseño UX/UI:* Creación de prototipos visuales y navegación principal.  
+3. *Desarrollo del MVP:* Implementación iterativa con revisiones semanales.  
+4. *Pruebas y Validación Interna:* Testeo funcional y con usuarios reales.  
+5. *Lanzamiento del MVP (Beta):* Uso real dentro del gimnasio y monitoreo.  
+6. *Evaluación y Mejoras Posteriores:* Revisión de feedback y plan de ampliaciones futuras.
+
+---
+
