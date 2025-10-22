@@ -127,9 +127,61 @@ El administrador necesita una herramienta centralizada que permita a los cliente
 
 ## 8. Requisitos no funcionales
 
-## 9. Plazo deseado
+### Requisitos Funcionales
+- Registrar usuarios y sus metas nutricionales.  
+- El cliente puede registrar alimentos consumidos y cantidad.  
+- Cálculo automático de macronutrientes.  
+- Mostrar reportes diarios y mensuales.  
+- Entrenadores pueden consultar datos de clientes.  
+- Administrador puede gestionar alimentos y usuarios.
 
-## 10. Definición de alcance y presupuesto
+### Requisitos No Funcionales
+- Acceso multiusuario con autenticación segura (JWT u otro mecanismo).  
+- Respaldo diario en servidor o nube.  
+- Interfaz usable y adaptada a móviles.  
+- Seguridad: HTTPS, control de acceso por roles, contraseñas cifradas.  
+- Rendimiento: tiempo de respuesta < 2s en consultas básicas.  
+- Escalabilidad: soportar crecimiento de usuarios.  
+- Disponibilidad: uptime ≥ 99%.  
+- Persistencia: almacenamiento en MongoDB.
+
+---
+## 9. Plazo Deseado
+Primera versión funcional del **MVP** (API + base de datos MongoDB) en un plazo de **4 semanas** desde la aprobación del alcance.
+
+---
+
+## 10. Definición de Alcance y Presupuesto
+
+**Alcance acordado:**  
+Desarrollo de una API con **MongoDB y Express** para gestionar usuarios, alimentos, comidas y entrenamientos.
+
+**Incluye:**
+- App móvil con roles (cliente, entrenador, admin).  
+- Registro de usuarios, alimentos, entrenamientos, comidas y peso.  
+- Reportes diarios y mensuales.  
+- Sincronización y almacenamiento local.  
+- Panel de administración interno.
+
+**No incluye:**
+- Recomendaciones automáticas de dieta.  
+- Integraciones con dispositivos externos.  
+- Exportación de datos (PDF, Excel).  
+- Pasarelas de pago o funciones premium.
+
+### Presupuesto Estimado
+
+| Rol                      | Horas Estimadas | Tarifa (USD/h) | Subtotal (USD) |
+|--------------------------|-----------------|----------------|----------------|
+| Desarrollador Full-Stack | 300             | 5              | 1,500          |
+| Diseñador UX/UI          | 40              | 5              | 200            |
+| QA Tester                | 30              | 5              | 150            |
+| Project Manager          | 30              | 5              | 150            |
+| **Subtotal**             | —               | —              | **2,000**      |
+| **Contingencia (10%)**   | —               | —              | **200**        |
+| **Total Estimado**       | —               | —              | **≈ 2,200 USD** |
+
+---
 
 ## 11. Propuesta formal y cronograma de trabajo
 
